@@ -1,0 +1,159 @@
+html, body {
+    height: 100%;
+}
+
+/* Bordered form */
+.form {
+    max-width: 600px;
+    padding: 20px 40px 40px;
+    margin: 0 auto;
+    background-color: #fff;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+}
+
+/* Full-width inputs */
+input[type=tel],
+input[type=email],
+input[type=text],
+input[type=password],
+textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 16px 0;
+    font-size: 16px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    font-size: 16px;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+    opacity: 0.8;
+}
+
+/* Extra style for the submit button (green) */
+.button-submit {
+    width: auto;
+    font-size: 16px;
+    padding: 10px 36px;
+    background-color: #4CAF50;
+    float: right;
+}
+
+/* Extra style for the cancel button (red) */
+.button-cancel {
+    width: auto;
+    font-size: 16px;
+    padding: 10px 36px;
+    background-color: #F44336;
+    float: right;
+}
+
+/* Center the avatar image inside this container */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+/* Avatar image */
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+
+/* Add padding to containers */
+.container {
+    padding: 16px;
+    background-color: #f1f1f1
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    .button-submit {
+        width: 100%;
+    }
+
+    .button-cancel {
+        width: 100%;
+    }
+}
+
+/* The alert message box */
+.alert-success {
+    padding: 20px;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+    background-color: #4CAF50;
+    text-align: center;
+}
+
+.alert-fail {
+    padding: 20px;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+    background-color: #F44336;
+    text-align: center;
+}
+
+#registration_success {
+    display: none;
+    margin-top: 1rem;
+    margin-bottom: 0;
+}
+
+#registration_fail {
+    display: none;
+    margin-top: 1rem;
+    margin-bottom: 0;
+}
+
+#dealer_login_fail {
+    display: none;
+    margin-top: 1rem;
+    margin-bottom: 0;
+}
+
+#admin_login_fail {
+    display: none;
+    margin-top: 1rem;
+    margin-bottom: 0;
+}
+
+#update_success_ {
+    display: none;
+    margin-bottom: 0;
+}
+
+#update_fail_ {
+    display: none;
+    margin-bottom: 0;
+}
+
+.DealerInfoCol{
+    width: auto;
+}
+
+#place_order_success {
+    display: none;
+    margin-top: 0;
+}
+
+#place_order_fail {
+    display: none;
+    margin-top: 0;
+}
+
+
